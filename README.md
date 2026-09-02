@@ -37,3 +37,19 @@ Network Traffic (CSV)
     │
     ▼
 [Streamlit Live Streaming Dashboard]
+
+
+Cyber-World-Model/
+├── app.py                      # Main Streamlit Dashboard Application
+├── requirements.txt            # Python Dependencies
+├── .gitignore                  # Excluded Files (Models, Cache, Datasets)
+├── README.md                   # Project Documentation
+├── src/
+│   ├── __init__.py
+│   ├── preprocess.py           # Windowing, Feature Scaling & Tensor Generation
+│   ├── train_world_model.py    # PyTorch LSTM World Model Training Pipeline
+│   ├── train_baseline.py       # Benchmark Logistic Regression Trainer
+│   ├── calibrate.py            # Baseline Loss Threshold Calibration
+│   └── inference.py            # Sequence Evaluation & Threat Stage Engine
+└── data/                       # Directory for CIC-IDS2017 Dataset Files
+    └── README.md
