@@ -40,7 +40,7 @@ Network Traffic (CSV)
 
 ```
 
-Project Structure : 
+## Project Structure : 
 Cyber-World-Model/
 ├── app.py                      # Main Streamlit Dashboard Application
 ├── requirements.txt            # Python Dependencies
