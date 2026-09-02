@@ -40,18 +40,20 @@ Network Traffic (CSV)
 
 ```
 
-## Project Structure : 
+## 📂 Project Structure
+
+```text
 Cyber-World-Model/
-├── app.py                      # Main Streamlit Dashboard Application
+├── app.py                      # Streamlit Dashboard Application
 ├── requirements.txt            # Python Dependencies
-├── .gitignore                  # Excluded Files (Models, Cache, Datasets)
+├── .gitignore                  # Git Exclusion Rules
 ├── README.md                   # Project Documentation
 ├── src/
 │   ├── __init__.py
-│   ├── preprocess.py           # Windowing, Feature Scaling & Tensor Generation
-│   ├── train_world_model.py    # PyTorch LSTM World Model Training Pipeline
-│   ├── train_baseline.py       # Benchmark Logistic Regression Trainer
-│   ├── calibrate.py            # Baseline Loss Threshold Calibration
-│   └── inference.py            # Sequence Evaluation & Threat Stage Engine
-└── data/                       # Directory for CIC-IDS2017 Dataset Files
+│   ├── preprocess.py           # Feature Extraction & Scaling
+│   ├── train_world_model.py    # PyTorch LSTM Model Training
+│   ├── train_baseline.py       # Baseline Model Benchmark
+│   ├── calibrate.py            # Anomaly Threshold Calibration
+│   └── inference.py            # Threat Engine & ATT&CK Mapping
+└── data/                       # CIC-IDS2017 Dataset Files
     └── README.md
