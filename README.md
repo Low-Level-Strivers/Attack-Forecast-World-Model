@@ -57,3 +57,10 @@ Cyber-World-Model/
 │   └── inference.py            # Threat Engine & ATT&CK Mapping
 └── data/                       # CIC-IDS2017 Dataset Files
     └── README.md
+```
+## 🛠️ Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/Cyber-World-Model.git](https://github.com/YOUR_USERNAME/Cyber-World-Model.git)
+cd Cyber-World-Model
