@@ -64,3 +64,21 @@ Cyber-World-Model/
 ```bash
 git clone [https://github.com/YOUR_USERNAME/Cyber-World-Model.git](https://github.com/YOUR_USERNAME/Cyber-World-Model.git)
 cd Cyber-World-Model
+```
+
+### 2. Set Up Virtual Environment
+```bash
+# On Windows
+python -m venv venv
+venv\Scripts\activate
+
+# On Linux / macOS
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
