@@ -82,3 +82,19 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## 🚀 Execution Pipeline
+
+Follow this sequence to preprocess dataset features, train the LSTM neural network, calibrate decision thresholds, and launch the streaming interface:
+
+### Step 1: Preprocess Dataset
+Processes raw network flow records into 10-second temporal state windows and fits feature scalers:
+```bash
+python src/preprocess.py
+```
+
+```text
+Inputs: data/Monday-WorkingHours.pcap_ISCX.csv
+
+Output Artifacts: scaler.pkl, X_seq_train.npy, y_next_train.npy
+```
+
